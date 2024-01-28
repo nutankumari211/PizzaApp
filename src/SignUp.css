@@ -1,0 +1,62 @@
+/* SignUp.css */
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(34, 73, 17);
+    margin-top: 50px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: white
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+    color:white;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #46be2b;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    background-color: #9acda5;
+  }
+  
+  button {
+    background-color: #46be2b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #aad110;
+  }
+  
+  /* Add space between password input and button */
+  input[type="password"] {
+    margin-bottom: 20px;
+  }
+  

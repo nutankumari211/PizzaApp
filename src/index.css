@@ -1,0 +1,11 @@
+
+/* Home.css */
+
+body, html {
+  background: linear-gradient(to bottom, yellow, #28b30d);
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Rest of your existing CSS */
